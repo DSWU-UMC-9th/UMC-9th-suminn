@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.todo-container__header {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: rgb(76, 46, 11);
+}
+
+.todo-container__form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.todo-container__input {
+  border-radius: 10px;
+  border: 1px solid rgb(191, 183, 183);
+  padding: 5px;
+  flex: 1;
+}
+
+.todo-container__button {
+  border-radius: 10px;
+  border: 1px solid rgb(191, 183, 183);
+  background-color: rgb(241, 160, 160);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.todo-container__button:hover {
+  background-color: rgb(244, 137, 137);
+  
+}
+
+.render-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0 0;
+  gap: 10px;
+}
+
+.render-container__section {
+  width: 100%;
+
+}
+
+.render-container__title {
+  font-size: 20px;
+  margin-bottom: 8px
+}
+
+.render-container__list {
+  list-style: none;
+}
+
+.render-container__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(191, 183, 183);
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.render-container__item-text {
+  flex: 1;
+}
+
+.render-container__item-button {
+  border-radius: 10px;
+  border: 1px solid rgb(191, 183, 183);
+  padding: 5px;
+  cursor: pointer;
+}
