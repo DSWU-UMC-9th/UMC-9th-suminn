@@ -31,7 +31,6 @@ const NowPlaying = () => {
             }
           );
           setMovies(data.results);
-          setIsPending(false);
         }
         catch {
           setIsError(true);
