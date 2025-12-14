@@ -1,10 +1,10 @@
-import UseCallbackPage from "./UseCallbackPage";
+import UseMemoPage from "./UseMemoPage";
 import "./App.css";
 
 function App() {
   return (
     <main className="flex flex-col justify-center items-center h-dvh">
-    <UseCallbackPage />
+    <UseMemoPage />
     </main>
   );
 }
