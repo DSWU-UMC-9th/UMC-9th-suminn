@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <main className="flex flex-col justify-center items-center h-dvh">
-    <UseMemoPage />
+      <UseMemoPage />
     </main>
   );
 }
